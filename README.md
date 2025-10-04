@@ -46,9 +46,10 @@ This AI agent executes a systematic five‑step campaign creation process:
 
 ## Run
 - ADK Web UI (inspect/drive the agent in a browser):
-  - adk web --agents-dir=marketing_agent
+  - adk web
+  - Go to http://localhost:8000 in your browser
 
-- In the UI, select the agent "marketing_agent/root_agent" and provide your campaign brief.
+- In the UI, select the agent "marketing_agent" and provide your campaign brief.
 
 ## Scripts & Entry Points
 - agent package: `marketing_agent` — exposes `root_agent` in `__init__.py`
